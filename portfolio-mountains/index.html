@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Авторизация</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="assets/js/preloader.js" defer></script>
+    <script src="assets/js/parallax.js" defer></script>
+    <script src="assets/js/flipper.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader__spinner">
+        <div class="preloader__animation"></div>
+        <div class="preloader__percents">0%</div>
+      </div>
+    </div>
+    <div class="wrapper-index">
+      <div class="parallax">
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_009.jpg" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_008.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_007.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_006.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_005.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_004.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_003.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_002.png" alt=""></div>
+        <div class="parallax__layer"><img class="parallax__layer-img" src="assets/img/parallax/layer_001.png" alt=""></div>
+        <div class="parallax__layer parallax__layer__009"><img class="parallax__layer-img" src="assets/img/parallax/layer_000.png" alt=""></div>
+      </div>
+      <header class="welcome-header"><a class="auth-btn" href="/auth.html">Авторизоваться</a></header>
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="card">
+            <div class="face front">
+              <div class="info">
+                <div class="user user--welcome">
+                  <div class="user__avatar"><img class="user__avatar-img" src="assets/img/ava_sm.jpg" alt="Дмитрий Свищук"></div>
+                  <div class="user__name">Дмитрий Свищук</div>
+                  <div class="user__description">Личный сайт начинающего веб-разработчика</div>
+                  <div class="socials socials--green">
+                    <ul class="socials__list">
+                      <li class="socials__item"><a class="socials__link" href="https://vk.com/svishd">vk
+                          <div class="socials__icon fa fa-vk"></div></a></li>
+                      <li class="socials__item"><a class="socials__link" href="http://github.com/SvishD">git
+                          <div class="socials__icon fa fa-github-alt"></div></a></li>
+                      <li class="socials__item"><a class="socials__link" href="#">in
+                          <div class="socials__icon fa fa-linkedin"></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card__buttons">
+                <a class="card__button" href="works.html">Мои работы</a>
+                <a class="card__button" href="about.html">Обо мне</a>
+                <a class="card__button" href="blog.html">Блог</a>
+              </div>
+            </div>
+            <div class="face back">
+              <form class="auth-form">
+                <div class="auth-form__content">
+                  <h3 class="subtitle subtitle--auth">
+                    <div class="subtitle__text">Авторизуйтесь</div>
+                  </h3>
+                  <div class="auth-form__login-wrapper">
+                    <input class="auth-form__login" type="text" placeholder="Логин">
+                  </div>
+                  <div class="auth-form__pass-wrapper">
+                    <input class="auth-form__pass" type="password" placeholder="Пароль">
+                  </div>
+                  <input class="captcha__check" type="checkbox" id="captcha">
+                  <label class="captcha__check-label" for="captcha">Я человек</label>
+                  <div class="captcha__question">Вы точно не робот?</div>
+                  <input class="captcha__radio" type="radio" name="captcha-radio" id="captcha-yes">
+                  <label class="captcha__radio-label" for="captcha-yes">Да</label>
+                  <input class="captcha__radio" type="radio" name="captcha-radio" id="captcha-no">
+                  <label class="captcha__radio-label" for="captcha-no">Не уверен</label>
+                </div>
+                <div class="card__buttons card__buttons--auth">
+                  <a class="card__button index-btn" href="index.html">На главную</a>
+                  <a class="card__button" href="#">Войти</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="welcome-footer">
+        <div class="welcome-footer__wrapper"><span class="welcome-footer__copy">© Свищук Дмитрий </span><span class="welcome-footer__text">| создано с любовью в LoftSchool | 2016</span></div>
+      </footer>
+    </div>
+  </body>
+</html>
